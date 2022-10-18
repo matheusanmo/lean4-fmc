@@ -1,6 +1,9 @@
 #check Int
 #check Bool
 
+--TODO anonymous funs
+--TODO namespaces
+
 def quasecem : Int := 99
 
 #check quasecem

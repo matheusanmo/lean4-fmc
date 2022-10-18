@@ -1,0 +1,3 @@
+-- a monada IO
+-- read write
+-- cli menuing etc
