@@ -1,0 +1,35 @@
+!! CUIDADO: LEAN4 E LEAN3 SÃO DIFERENTES E INCOMPATIVEIS !!
+!! ESTEJA ATENTO SE O MATERIAL É PARA A VERSÃO 3 OU 4    !!
+!! TODOS AQUI SÃO PARA LEAN4                             !!
+
+Códigos exemplo para Lean4
+https://github.com/leanprover/lean4-samples
+
+Lean4 com viés de "programador" (computação)
+https://leanprover.github.io/functional_programming_in_lean/
+
+Lean4 com viés de "matématico" (demonstrações)
+https://leanprover.github.io/theorem_proving_in_lean4/
+
+Código fonte do Lean4, escrito em Lean4. Meio dificil de entender mas vai ficando menos dificil.
+https://github.com/leanprover/lean4/tree/master/src
+
+"Standard lib" do Lean4. 
+https://github.com/leanprover/lean4/blob/master/src/Init/Prelude.lean
+
+Também "standard lib".
+https://github.com/leanprover/lean4/blob/master/src/Init/Core.lean
+
+Aqui estão definidos os datatypes "padrão" do Lean4.
+https://github.com/leanprover/lean4/tree/master/src/Init/Data
+
+-------------------------------------------------------------
+Alguns livros interessantes:
+
+https://mitpress.mit.edu/9780262536431/the-little-typer/
+Traz uma abordagem diferente e interessante da teoria de tipos. Mais acessível, acredito.
+
+https://www.cambridge.org/core/books/type-theory-and-formal-proof/0472640AAD34E045C7F140B46A57A67C
+Introduz com rigor matematico algumas das teorias de tipo e provas. 
+Mais dificil de ler mas não precisa se preocupar em entender tudo ou acompanhar as demonstraçoes.
+Particularmente interessante como ele parte do lambda-calculo "sem tipos" e vai até outras teorias mais interessantes.
