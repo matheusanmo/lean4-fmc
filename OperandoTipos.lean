@@ -45,8 +45,6 @@ inductive FMCNat where
   | FMCzero : FMCNat
   | FMCsucc : FMCNat → FMCNat
 
-
-
 -- TODO: diferenciar type-dependent types e term-dependent types (ttfp cap 5)
 -- definicao fantasia:
 inductive Tipo where
@@ -55,6 +53,6 @@ inductive Tipo where
   | soma    (t u: Tipo)    -- t,u:Tipo entao t ⊕ u:Tipo. 
   | produto (t u: Tipo) -- t,u:Tipo entao t × u:Tipo
   deriving Repr
-  -- TODO tipos recursivos vem de onde?
+  -- TODO tipos recursivos vem de onde? W types de martin lof?
 
--- apanhado do 'maquinario' λC
+-- apanhado do 'maquinario' λ lean

@@ -1,5 +1,3 @@
-
-
 -- tipo "fantasia": o tipo das provas de uma proposicao P.
 -- P sendo, por exemplo "todo cachorro vai pro ceu"
 -- 'sorry' pede pro lean nao encher e so aceitar
@@ -20,3 +18,5 @@ def PparaQ : ProvasP → ProvasQ := sorry
 def p: ProvasP := sorry
 #check PparaQ
 #check PparaQ p -- isto é, `PparaQ p` é uma prova de Q.
+
+-- TODO constrastar uso de 'nao vazio' com 'habitado'
