@@ -1,3 +1,5 @@
+
+
 -- tipo "fantasia": o tipo das provas de uma proposicao P.
 -- P sendo, por exemplo "todo cachorro vai pro ceu"
 -- 'sorry' pede pro lean nao encher e so aceitar
