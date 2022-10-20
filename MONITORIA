@@ -35,7 +35,7 @@ Mais dificil de ler mas não precisa se preocupar em entender tudo ou acompanhar
 Particularmente interessante como ele parte do lambda-calculo "sem tipos" e vai até outras teorias mais interessantes.
 
 POSTSCRIPT: Alguém perguntou se há outra maneira de achar termos de tipo Type 1. Veja:
-#check List -- Type_u1 -> Type_u2
+#check List -- Type_u1 -> Type_u1
 #check Nat -- Type
 #check Type -- Type 1
 #check List Nat -- Type
