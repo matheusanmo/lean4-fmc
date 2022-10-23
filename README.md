@@ -41,6 +41,7 @@ Dois vieses: Lean como linguagem de programação funcional; lean como theorem p
 ### datatypes stdlib de tipo Type 0
 ### statements, declarations, context, judment (ttfp 2.4)
 ### terms depending on terms
+### tipos habitados
 ### o tipo Prop; implicacao ded nat
 ### exemplos e casos de uso
 ### variaveis, termos, abst, apl
@@ -66,7 +67,8 @@ Dois vieses: Lean como linguagem de programação funcional; lean como theorem p
 ### "combina" os lambdas anteeriores
 ### TODO
 
-# Provando teoremas
+# Provando teoremas 
+## tactics
 ## logica prop
 ## nats
 ## cats (talvez)
@@ -93,10 +95,16 @@ TODO: introduzir elementos sintaticos:
  - inductive where
  - if/else
  - if let
+ - variables
  - automatic implicit args {} e @funcao fpil 1.7 
  - typeclasses
+ - named args (manual sign changes)
 TODO: identificar em que ponto temos tipos flecha, enum, prod, inductive
 
 TODO:conectar cada ponto com sintaxe progfun lean e deducao nat qd aplicavel
 
 TODO: citar referencias nos pontos
+
+TODO: listar sintaxes relacionadas vies mat e.g. axiom theorem example 
+
+TODO: literal lean, exercicios c sorry
