@@ -26,18 +26,7 @@ def aplicaPoli (α : Type) (f: α → α) (a: α) : α :=
 #check String
 #check Type
 #check Type 1
-#check List Type
-
-
-
-
-
-
-
-
-
-
-
+#check List Type 
 inductive Mat where
   | mero: Mat
   | mucc (n: Mat) : Mat
@@ -49,7 +38,17 @@ def msoma (a b: Mat) : Mat :=
   | Mat.mucc (b') => Mat.mucc (msoma a b')
 
 
+--POSTSCRIPTS DA AULA QUARTA 19 10 22:
 
+--POSTSCRIPT: Alguém perguntou se há outra maneira de achar termos de tipo Type 1. Vimos um jeito na aula que me passou despercebido. Spoiler alert:
+#check List      -- Type_u1 -> Type_u1
+#check Nat       -- Type
+#check Type      -- Type 1
+#check List Nat  -- Type
+#check List Type -- ???
+
+--POSTSCRIPT 2:
+--Na monitoria comentei que Lean é feito em cima da teoria lambda-C, o 'calculo das construcoes'. É mais ou menos verdade: não é estritamente sobre lambda-C, mas sobre lambda-C com "extensões". Confesso que nao sei dizer com rigor qual a teoria subjacente para o Lean, e do que não se sabe não se fala. Por favor ignorem este comentário que fiz na aula; ainda não tenho bagagem para precisar "qual" teoria está sob Lean. Acredito fortemente que seja uma extensao do lambda-C. Se serve de algo veja a pagina https://en.wikipedia.org/wiki/Lambda_cube , que 'relaciona' vários lambda-calculos. O livro 'type theory and formal proof: and introduction' com certeza vai esclarecer muito mais.
 
 
 

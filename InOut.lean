@@ -1,9 +1,0 @@
--- a monada IO
--- read write
--- cli 
--- funcao main : IO Unit
--- notacao do, let. por que usamos `let x ← ` e nao `let x :=`
--- IO.get{Stdin, Stdout}. Stdin/out.putStrLn/getLine
--- IO e impureza, nao determinismo, mutabilidade
--- como IO funciona: Monada
--- analogia haskell
