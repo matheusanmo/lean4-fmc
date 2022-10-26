@@ -14,24 +14,24 @@ namespace lambdaflecha
 #check [1,2,3,4]
 #check ([]: List Nat) -- existe um [] para cada tip
 
-def len (xs: List Nat) : Nat := sorry
+def len (xs: List Nat) : Nat := 1 -- sorry
 #eval len []
 #eval len [123]
 #eval len [1,2,3,4,5,6,7]
 
-def map (f : Nat → Nat) (xs: List Nat) : List Nat := sorry
+def map (f : Nat → Nat) (xs: List Nat) : List Nat := [] --sorry
 #eval map (fun x => x+1) [1,2,3,4]
 #eval map (fun x => x * 2) [2,4,8,16,32]
 
-def filter (p: Nat → Bool) (xs: List Nat) : List Nat := sorry
-def par (n: Nat) : Bool := sorry
+def filter (p: Nat → Bool) (xs: List Nat) : List Nat := [] --sorry
+def par (n: Nat) : Bool := true --sorry
 #eval par 0
 #eval par 1
 #eval par 12345
 #eval filter par [1,2,3,4,5,6]
 
-def fold (acum: Nat) (f: Nat → Nat → Nat) (xs: List Nat) := sorry
-def soma (m n : Nat) := sorry
+def fold (acum: Nat) (f: Nat → Nat → Nat) (xs: List Nat): Nat := 0 --sorry
+def soma (m n : Nat) := 0 -- sorry
 #eval fold 0 soma [1,2,3,4,5]
 #eval fold 0 soma [123]
 #eval fold 0 soma []
